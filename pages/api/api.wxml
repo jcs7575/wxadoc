@@ -1,0 +1,19 @@
+<!--api.wxml-->
+<view class="page" >
+  <view class="page__hd">
+    <text class="page__title">button</text>
+    <text class="page__desc">按钮</text>
+  </view>
+  <view class="page__bd">
+    <view class="section">
+      <input bindinput="inputListener" type="text" placeholder="请输入" value="fisrt button" placeholder-style="color:red"/>
+    </view>
+    <view class="section">
+      <view class="button-wrapper">
+        <button bindtap="add">Add</button>
+        <button bindtap="del">Del</button>
+        <button bindtap="search">Get</button>
+      </view>
+    </view>
+  </view>
+</view>
